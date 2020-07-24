@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_receita">
+
+    <fragment
+        android:id="@+id/navigation_receita"
+        android:name="com.example.restaurati.ui.home.HomeFragment"
+        android:label="@string/title_receitas"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_despesas"
+        android:name="com.example.restaurati.ui.dashboard.DashboardFragment"
+        android:label="@string/title_despesas"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_relatorio"
+        android:name="com.example.restaurati.ui.notifications.NotificationsFragment"
+        android:label="@string/title_relatorio"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_dizimistas"
+        android:name="com.example.restaurati.ui.notifications.NotificationsFragment"
+        android:label="@string/title_dizimistas"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

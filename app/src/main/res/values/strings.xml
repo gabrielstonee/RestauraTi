@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RestauraTi</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_receitas">Receitas</string>
+    <string name="title_despesas">Despesas</string>
+    <string name="title_relatorio">Relatório</string>
+    <string name="title_dizimistas">Dizimistas</string>
+</resources>
